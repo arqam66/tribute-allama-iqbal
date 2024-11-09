@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #c5c5c5;
+  min-height: 100vh;
+  border: 10px solid #1d1e4c;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.top_section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.top_section h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1d1e4c;
+  text-transform: uppercase;
+}
+
+.top_section h4 {
+  font-size: 30px;
+  text-align: end;
+}
+
+.image_container {
+  border-radius: 50%;
+  overflow: hidden;
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.image_container,
+img {
+  width: 350px;
+  height: 320px;
+  object-fit:cover;
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.image_container:hover img {
+  transform: scale(1.1); /* Slightly zooms in the image */
+
+}
+
+.about_section {
+  margin-top: 50px;
+}
+
+.about_section h2 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.about_section p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+
+.biography_section {
+  margin: 50px 0;
+}
+
+.biography_section h3 {
+  margin-bottom: 20px;
+}
+
+.biography_section ul {
+  margin-left: 50px;
+}
+
+.biography_section li {
+  margin-bottom: 15px;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+footer p {
+  text-align: end;
+}
+
+
+p {
+  text-align: justify;
+  align-items: center;
+  font-style: initial;
+  font: size 30px;
+  font-weight: bolder;
+}
+
+.about_section h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #1d1e4c;
+  text-transform: uppercase;
+}
+
+.about_section p{
+  font-family: 'Roboto', sans-serif;
+ font-weight: 100;
+}
+
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #1d1e4c;
+  text-transform: uppercase;
+  margin-right: 21vh; /* Adjusts the horizontal position */
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-align: end;
+  margin-right: 21vh; /* Adjusts the horizontal position */
+}
+
+h1, h4 {
+  font-family: 'Roboto', sans-serif;
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.good:hover h1, .good:hover h4 {
+  color:#f38b46;
+  transform: scale(1.1); /* Slightly enlarges the text on hover */
+}
+
+/* Optional: Adding a slight upward movement on hover */
+.good:hover h1 {
+  transform: scale(1.1) translateY(-5px); /* Slightly enlarges and moves the title up */
+}
+
+.good:hover h4 {
+  transform: scale(1.1) translateY(-5px); /* Slightly enlarges and moves the date up */
+}
+
+.biography_section li{
+  font-size: 20px;
+  font-weight:10px;
+}
+ 
+.biography_section h3{
+  font-size: 30px;
+  color: #1d1e4c;
+  font-style: initial;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+
+}
+
+/* Transition effect for title, paragraph, and footer */
+.biography_section h3, 
+.biography_section p,
+footer p {
+  transition: transform 0.3s ease, color 0.3s ease; /* Transition for both transform and color */
+  font-family: 'Roboto', sans-serif; /* Optional font style */
+}
+
+.biography_section h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1d1e4c; /* Initial title color */
+}
+
+.biography_section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333; /* Initial paragraph color */
+}
+
+footer p {
+  font-size: 18px;
+  color: #555; /* Initial footer color */
+}
+
+/* Hover effect for title */
+.biography_section h3:hover {
+  transform: scale(1.1); /* Slightly enlarges the title */
+  color: #ffae00e8; /* Changes the color of the title on hover */
+}
+
+
+/* Hover effect for footer text */
+footer p:hover {
+  transform: scale(1.05); /* Slightly enlarges the footer text */
+  color: #ff1900; /* Changes the color of the footer text on hover */
+}
+
+
+.about_section h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #1d1e4c;
+  text-transform: uppercase;
+  transition: transform 0.3s ease, color 0.3s ease; /* Adding smooth transition */
+}
+
+/* Hover effect for "Philosopher of the East" */
+.about_section h2:hover {
+  transform: scale(1.1); /* Slightly enlarges the title */
+  color: #ffae00e8; /* Optional: Changes the color on hover */
+}
+
+footer {
+  margin: 50px;
+  text-align: end;
+  font-size: 10px;
+  
+}
+
+footer p {
+  font-size: 18px;
+  color: #000000;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Center "Arqam Hussain" in the footer */
+
+
+
+.second-footer {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+    display: flex;
+    margin-left: 40vh;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for second footer */
+.second-footer:hover {
+  transform: scale(1.05); /* Slightly enlarges the text */
+  color: #f38b46; /* Changes the text color on hover */
+}
+
+.second-footer p {
+  margin: 0;
+}
